@@ -15,10 +15,6 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Nunito:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
@@ -89,7 +85,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/anim_video.jpg" alt="">
+            <img class="b-lazy img-fluid" src="img/loading.gif" data-src="img/portfolio/anim_video.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Animation vidéo</h4>
@@ -105,7 +101,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/jeu_elec.jpg" alt="">
+            <img class="b-lazy img-fluid" src="img/loading.gif" data-src="img/portfolio/jeu_elec.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>L’électricité : un jeu d’enfant!</h4>
@@ -121,7 +117,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/petit_entre.jpg" alt="">
+            <img class="b-lazy img-fluid" src="img/loading.gif" data-src="img/portfolio/petit_entre.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Petits entrepreneurs</h4>
@@ -137,7 +133,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/prog.jpg" alt="">
+            <img class="b-lazy img-fluid" src="img/loading.gif" data-src="img/portfolio/prog.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Programmation</h4>
@@ -171,7 +167,7 @@
           <ul class="timeline">
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                <img class="b-lazy rounded-circle img-fluid" src="img/loading.gif" data-src="img/about/1.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -186,7 +182,7 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              <img class="b-lazy rounded-circle img-fluid" src="img/loading.gif" data-src="img/about/2.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -201,7 +197,7 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              <img class="b-lazy rounded-circle img-fluid" src="img/loading.gif" data-src="img/about/3.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -214,7 +210,7 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                <img class="b-lazy rounded-circle img-fluid" src="img/loading.gif" data-src="img/about/4.jpg" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -245,7 +241,7 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
       <div class="row">
         <div class="col-sm-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/gen.jpg" alt="">
+          <img class="b-lazy mx-auto rounded-circle" src="img/loading.gif" data-src="img/team/gen.jpg" alt="">
             <h4>Geneviève Labelle</h4>
             <!-- Ajouter titre ici
             <p class="text-muted">Lead Designer</p>
@@ -254,7 +250,7 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
         </div>
         <div class="col-sm-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/luc.jpg" alt="">
+          <img class="b-lazy mx-auto rounded-circle" src="img/loading.gif" data-src="img/team/luc.jpg" alt="">
             <h4>Luc Trudeau</h4>
             <!--  Ajouter titre ici
             <p class="text-muted"></p>
@@ -484,13 +480,22 @@ Le centre d’apprentissage inRsi est né d’une discussion entre deux parents 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
-
+  <script src="js/blazy.min.js"></script>
+  <script>
+      var bLazy = new Blazy({
+        breakpoints: [{
+	    width: 420 // Max-width
+          , src: 'data-src'
+	}]
+      , success: function(element){
+	    setTimeout(function(){
+		var parent = element.parentNode;
+		parent.className = parent.className.replace(/\bloading\b/,'');
+	    }, 200);
+        }
+   });
+</script>
 </body>
-
 </html>
