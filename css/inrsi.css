@@ -178,3 +178,8 @@ padding: 100px 0;
     border-bottom: 3px solid transparent;
     border-top: 3px solid #8F0808;
 }
+
+img.notAvailable {
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+}
