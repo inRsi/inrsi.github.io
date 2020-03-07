@@ -119,8 +119,8 @@
      fit-margin-left="20"
      fit-margin-bottom="20"
      inkscape:zoom="2"
-     inkscape:cx="337.57816"
-     inkscape:cy="132.96392"
+     inkscape:cx="462.14845"
+     inkscape:cy="172.96392"
      inkscape:window-x="0"
      inkscape:window-y="29"
      inkscape:window-maximized="0"
@@ -134,7 +134,67 @@
 	.st4{fill:#199AA8;}
 	.st5{fill:#9D9D9C;}
 	.st6{fill:#C0C0C0;}
-</style><style
+</style><path
+     class="st0"
+     d="m 28.93,254.88 c -4.92,0 -8.93,-4 -8.93,-9.08 0,-4.92 4,-8.93 8.93,-8.93 4.93,0 9.08,4 9.08,8.93 0,5.08 -4.16,9.08 -9.08,9.08 z m -8.93,76.18001 0,-53.86 C 20,272.28 24,268.12 28.93,268.12 c 4.93,0 9.08,4.16 9.08,9.08001 l 0,53.86 c 0,4.92 -4.16,8.93 -9.08,8.93 -4.92,0 -8.93,-4.01 -8.93,-8.93 z"
+     id="path3451"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     class="st0"
+     d="m 113.11,277.20001 0,53.86 c 0,3.69 -2.31,7.08 -5.85,8.31 -1.08,0.46 -2.15,0.62 -3.23,0.62 -2.62,0 -5.08,-1.23 -6.77,-3.23 l -28.93,-34.78 0,29.09 c 0,4.92 -4,8.93 -9.08,8.93 -4.92,0 -8.93,-4 -8.93,-8.93 l 0,-53.86 c 0,-3.85001 2.31,-7.23001 5.85,-8.46001 1.08,-0.46 2.15,-0.62 3.23,-0.62 2.62,0 5.08,1.23 6.77,3.23 l 29.09,34.78001 0,-28.93 c 0,-5.08001 4,-9.08001 8.93,-9.08001 4.93,0 8.92,3.99 8.92,9.07001 z"
+     id="path3453"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     class="st0"
+     d="m 261.18,313.05001 0,1.69 c 0,5.85 -2.15,11.7 -6.31,16.16 -5.39,5.85 -13.23,9.08 -22.31,9.08 -10.16,0 -19.39,-5.08 -24.01,-13.08 -0.77,-1.39 -1.23,-3.08 -1.23,-4.62 0,-3.08 1.54,-6 4.46,-7.7 1.39,-0.77 2.92,-1.23 4.46,-1.23 3.08,0 6.16,1.69 7.85,4.62 1.69,2.92 5.54,4 8.46,4 4,0 7.23,-1.08 9.08,-3.23 1.23,-1.23 1.69,-2.62 1.69,-4.16 -0.77,-1.85 -7.39,-5.08 -12.62,-6.31 -0.15,0 -0.46,0 -0.62,-0.15 -9.08,-2.62 -20.01,-8.62 -20.01,-22.32 0,-12.00001 11.08,-20.93001 25.85,-20.93001 4.92,0 10.31,1.54 14.47,4.16 2.77,1.69 4.31,4.62 4.31,7.70001 0,1.69 -0.46,3.23 -1.39,4.77 -1.69,2.62 -4.46,4.16 -7.54,4.16 -1.69,0 -3.39,-0.46 -4.92,-1.39 -1.39,-0.92 -3.39,-1.39 -4.92,-1.39 -5.54,0 -7.85,2.31 -7.85,2.92 0,1.08 0,3.08 6.77,5.08 1.39,0.31 6.16,1.54 11.08,3.85 11.86,5.7 14.79,13.09 15.25,18.32 z"
+     id="path3457"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     class="st0"
+     d="m 282.42,254.88 c -4.92,0 -8.93,-4 -8.93,-9.08 0,-4.92 4,-8.93 8.93,-8.93 4.93,0 9.08,4 9.08,8.93 0,5.08 -4.16,9.08 -9.08,9.08 z m -8.93,76.18001 0,-53.86 c 0,-4.92001 4,-9.08001 8.93,-9.08001 4.93,0 9.08,4.16 9.08,9.08001 l 0,53.86 c 0,4.92 -4.16,8.93 -9.08,8.93 -4.92,0 -8.93,-4.01 -8.93,-8.93 z"
+     id="path3459"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     id="path3531"
+     d="m 447.32184,260.90239 -73.38544,0 c -3.32218,0 -6.00712,-2.69344 -6.00712,-6.00712 0,-3.32219 2.69343,-6.00712 6.00712,-6.00712 l 73.38544,0 c 3.32218,0 6.00712,2.69343 6.00712,6.00712 0.009,3.31368 -2.68494,6.00712 -6.00712,6.00712 z"
+     class="st3"
+     inkscape:export-xdpi="826.23157"
+     inkscape:export-ydpi="826.23157"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     id="path3533"
+     d="m 408.39875,279.54401 c -3.2882,0 -5.97313,-2.65095 -6.00712,-5.94765 -0.034,-3.32218 2.62546,-6.04111 5.94765,-6.07509 l 44.06355,-0.45033 c 0.017,0 0.0425,0 0.0595,0 3.2882,0 5.97314,2.65095 6.00712,5.94765 0.034,3.32219 -2.62546,6.04111 -5.94764,6.0751 l -44.06355,0.45032 c -0.017,0 -0.034,0 -0.0595,0 z"
+     class="st4"
+     inkscape:export-xdpi="826.23157"
+     inkscape:export-ydpi="826.23157"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     id="path3535"
+     d="m 396.70738,296.23139 c -3.28819,0 -5.97313,-2.65095 -6.00712,-5.94764 -0.034,-3.32219 2.62546,-6.04111 5.94765,-6.0751 l 28.59967,-0.28888 c 3.33918,0.008 6.04111,2.62546 6.07509,5.94764 0.034,3.32219 -2.62546,6.04111 -5.94764,6.0751 l -28.59967,0.28888 c -0.0255,0 -0.0425,0 -0.068,0 z"
+     class="st5"
+     inkscape:export-xdpi="826.23157"
+     inkscape:export-ydpi="826.23157"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><path
+     id="path3537"
+     d="m 378.66053,312.40899 c -3.2882,0 -5.97313,-2.65095 -6.00712,-5.94765 -0.034,-3.32218 2.62546,-6.04111 5.94764,-6.0666 l 20.7233,-0.21241 c 0.017,0 0.0425,0 0.0595,0 3.2882,0 5.97314,2.65095 6.00712,5.94764 0.034,3.32219 -2.62546,6.04111 -5.94764,6.0666 l -20.72329,0.21242 c -0.017,0 -0.034,0 -0.0595,0 z"
+     class="st6"
+     inkscape:export-xdpi="826.23157"
+     inkscape:export-ydpi="826.23157"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /><text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="295.32632"
+     y="339.6506"
+     id="text8019"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan8021"
+       x="295.32632"
+       y="339.6506"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:'Futura Hv BT';-inkscape-font-specification:'Futura Hv BT Italic';fill:#ffffff;fill-opacity:1">.com</tspan></text>
+<style
      id="style3876"
      type="text/css">
 	.st0{fill:#033E60;}
@@ -146,7 +206,7 @@
 	.st6{fill:#C0C0C0;}
 </style><g
      id="g3953"
-     transform="matrix(0.48892245,0,0,0.48892245,27.445456,23.874175)"><path
+     transform="matrix(0.48892245,0,0,0.48892245,11.445456,-49.625825)"><path
        id="path3878"
        d="m 192.57,246.71 c -4.92,0 -8.93,-4 -8.93,-9.08 0,-4.92 4,-8.93 8.93,-8.93 4.93,0 9.08,4 9.08,8.93 0,5.08 -4.16,9.08 -9.08,9.08 z m -8.93,76.18 0,-53.86 c 0,-4.92 4,-9.08 8.93,-9.08 4.93,0 9.08,4.16 9.08,9.08 l 0,53.86 c 0,4.92 -4.16,8.93 -9.08,8.93 -4.92,0 -8.93,-4.01 -8.93,-8.93 z"
        class="st0"
@@ -603,7 +663,7 @@ ZT7yznalvl6CkwKohGyUHY37608YO3R3BvD/AU0+iphugD2oAAAAAElFTkSuQmCC
      preserveAspectRatio="none"
      height="90.75"
      width="121"
-     transform="matrix(0.99430765,-0.10654716,0.10654716,0.99430765,0,0)"
+     transform="matrix(0.99430765,-0.10654716,0.10654716,0.99430765,10,-26)"
      style="filter:url(#filter4457)" /><image
      y="-78.174622"
      x="579.25214"
@@ -1212,7 +1272,7 @@ ZUpaWtr/Bxu8tFKzq9QxAAAAAElFTkSuQmCC
      preserveAspectRatio="none"
      height="93.872131"
      width="125.25"
-     transform="matrix(0.97200969,0.23494078,-0.23494078,0.97200969,0,0)"
+     transform="matrix(0.97200969,0.23494078,-0.23494078,0.97200969,10,-26)"
      style="filter:url(#filter4433)" /><image
      y="35.792931"
      x="500.79318"
@@ -2184,5 +2244,101 @@ P/LR+g5fl/Ln7b/LP3X+f6I/+Xxz/9k=
      preserveAspectRatio="none"
      height="112.28875"
      width="143.5"
-     transform="matrix(0.98649283,0.16380446,-0.16380446,0.98649283,0,0)"
-     style="filter:url(#filter4445)" /></svg>
+     transform="matrix(0.98649283,0.16380446,-0.16380446,0.98649283,10,-26)"
+     style="filter:url(#filter4445)" /><text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#033e60;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="96"
+     y="177.5"
+     id="text4526"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4528"
+       x="96"
+       y="177.5"
+       style="font-size:30px;-inkscape-font-specification:'Futura BdCn BT Condensed';font-family:'Futura BdCn BT';font-weight:normal;font-style:normal;font-stretch:condensed;font-variant:normal;fill:#033e60;fill-opacity:1;">La session printemps 2020</tspan><tspan
+       sodipodi:role="line"
+       x="96"
+       y="215"
+       style="font-size:30px;-inkscape-font-specification:'Futura BdCn BT Condensed';font-family:'Futura BdCn BT';font-weight:normal;font-style:normal;font-stretch:condensed;font-variant:normal;fill:#033e60;fill-opacity:1;"
+       id="tspan4536">commence le 21 mars</tspan><tspan
+       sodipodi:role="line"
+       x="96"
+       y="252.5"
+       id="tspan4534"
+       style="font-size:30px;-inkscape-font-specification:'Futura BdCn BT Condensed';font-family:'Futura BdCn BT';font-weight:normal;font-style:normal;font-stretch:condensed;font-variant:normal;fill:#033e60;fill-opacity:1;"> </tspan></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#033e60;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="96"
+     y="330"
+     id="text4530"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4532"
+       x="96"
+       y="330"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:27.5px;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT Condensed';fill:#033e60;fill-opacity:1">Programmation   Ateliers mixtes    Stop motion    Aide aux devoirs </tspan></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bc163c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="98"
+     y="329"
+     id="text4538"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4540"
+       x="98"
+       y="329"
+       style="font-size:30px;fill:#bc163c;fill-opacity:1">                |                |              | </tspan></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#033e60;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="257.5"
+     y="276.5"
+     id="text4542"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4544"
+       x="257.5"
+       y="276.5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT Condensed';fill:#033e60;fill-opacity:1">inscriptions.in  si.com</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="110"
+     y="267"
+     id="text4546"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4548"
+       x="110"
+       y="267" /></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="326.5"
+     y="241"
+     id="text4550"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4552"
+       x="326.5"
+       y="241"></tspan><tspan
+       sodipodi:role="line"
+       x="326.5"
+       y="291"
+       id="tspan4554" /></text>
+<text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bc163c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="453.25391"
+     y="276.5"
+     id="text4560"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4562"
+       x="453.25391"
+       y="276.5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Futura BdCn BT';-inkscape-font-specification:'Futura BdCn BT Condensed';fill:#bc163c;fill-opacity:1">R</tspan></text>
+</svg>
