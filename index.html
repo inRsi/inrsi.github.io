@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-120409977-2');
   </script>
   <meta charset="utf-8"/> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> <meta name="description" content="Nouveau à St-Bruno, le centre inRsi est un centre d’apprentissage technologique à but non lucratif qui permet aux enfants de développer leur potentiel en réalisant divers projets. Vos enfants y trouveront une ambiance chaleureuse et décontractée. Toutes les réalisations créées à travers les différents cours seront présentées aux parents à la fin de la session."/>
@@ -34,10 +33,9 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">in<span style="color:#BC163C">R</span>si</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">in<span style="color:#BC163C">R</span>si</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
+        Menu <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -75,13 +73,19 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">Nos cours</h2>
-          <h3 class="section-subheading text-muted">Nouveau à St-Bruno, le centre inRsi est un centre d’apprentissage technologique à but non lucratif qui permet aux enfants de développer leur potentiel en réalisant divers projets. Vos enfants y trouveront une ambiance chaleureuse et décontractée. Toutes les réalisations créées à travers les différents cours seront présentées aux parents à la fin de la session.</h3>
+          <h3 class="section-subheading text-muted">
+            Nouveau à St-Bruno, le centre inRsi est un centre d’apprentissage technologique à but
+            non lucratif qui permet aux enfants de développer leur potentiel en réalisant divers 
+            projets. Vos enfants y trouveront une ambiance chaleureuse et décontractée. Toutes les 
+            réalisations créées à travers les différents cours seront présentées aux parents à la 
+            fin de la session.
+          </h3>
         </div>
       </div>
       <div class="row">
         <!-- Portfolio Ateliers Technologiques -->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioAteliers">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalAteliers">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -100,8 +104,8 @@
           </div>
         </div>
         <!-- Portfolio Electricite -->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioElectricite">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalElectricite">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -121,8 +125,8 @@
           </div>
         </div>
         <!-- Portfolio Animation Video-->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioAnimation">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalAnimation">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -144,8 +148,8 @@
           </div>
         </div>
         <!-- Portfolio Programmation-->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioProgrammation">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalProgrammation">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -186,8 +190,8 @@
           </div>
         </div>
         <!-- Portfolio Soirées techos libres-->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioSoirees">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalSoirees">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -209,8 +213,8 @@
           </div>
         </div>
         <!-- Portfolio Aide Pédagogique-->
-        <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+        <div class="col-md-6 col-sm-6 portfolio-item" id="PortfolioAide">
+          <a class="portfolio-link" data-toggle="modal" href="#ModalAide">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -434,7 +438,7 @@
   </footer>
 
   <!-- Modal Animation -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalAnimation" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -483,7 +487,7 @@
   </div>
 
   <!-- Modal Electricite -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalElectricite" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -580,7 +584,7 @@
   </div>
 
   <!-- Modal Programmation -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalProgrammation" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -735,7 +739,7 @@
   </div>
 
   <!-- Modal Ateliers technologiques -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalAteliers" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -790,7 +794,7 @@
     </div>
   </div>
   <!-- Modal Aide pédagogique -->
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalAide" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog"> <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -823,7 +827,7 @@ Les cours sont donnés par Geneviève Labelle, enseignante au préscolaire et au
     </div>
   </div>
   <!-- Modal Soirees techno -->
-  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="ModalSoirees" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog"> <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
