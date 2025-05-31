@@ -184,3 +184,13 @@ img.notAvailable {
   filter: alpha(opacity=50);
 }
 
+a.cta-link {
+  color: #BC163C;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a.cta-link:hover {
+  text-decoration: none;
+}
+
