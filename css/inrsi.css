@@ -243,3 +243,11 @@ a.cta-link:hover {
     padding-top: 12px;
   }
 }
+
+/* Keep newsletter signup inline, with scrolling available for longer form states. */
+#infolettre .newsletter-form {
+  display: block;
+  width: 100%;
+  height: 280px;
+  border: 0;
+}
