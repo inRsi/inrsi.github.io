@@ -211,3 +211,10 @@ a.cta-link:hover {
   outline-offset: 4px;
   opacity: 1;
 }
+
+/* Match the existing landscape cards while retaining the full image in the dialog. */
+#PortfolioDiner .portfolio-link img {
+  width: 100%;
+  aspect-ratio: 400 / 267;
+  object-fit: cover;
+}
