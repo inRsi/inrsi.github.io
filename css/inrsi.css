@@ -194,3 +194,20 @@ a.cta-link:hover {
   text-decoration: none;
 }
 
+
+/* Preserve the close icon geometry when using a native keyboard-accessible button. */
+.portfolio-modal button.close-modal {
+  border: 0;
+  padding: 0;
+}
+
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .rl {
+  display: block;
+}
+
+.portfolio-modal .close-modal:focus-visible {
+  outline: 3px solid #033E60;
+  outline-offset: 4px;
+  opacity: 1;
+}
