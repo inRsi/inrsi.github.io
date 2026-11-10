@@ -218,3 +218,28 @@ a.cta-link:hover {
   aspect-ratio: 400 / 267;
   object-fit: cover;
 }
+
+/* Match card heights within each two-column row; stacked cards keep their natural height. */
+@media (min-width: 576px) {
+  #portfolio .portfolio-item:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #portfolio .portfolio-item .portfolio-link {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  #portfolio .portfolio-item .portfolio-caption {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  #portfolio .portfolio-item .portfolio-caption > p:last-child {
+    margin-top: auto;
+    padding-top: 12px;
+  }
+}
