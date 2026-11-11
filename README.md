@@ -10,7 +10,7 @@ Aucune installation npm ni compilation Gulp n’est nécessaire.
 - `css/agency.css` est la feuille du thème chargée par les pages et se modifie directement.
   Les anciennes sources SCSS ont été retirées; elles restent accessibles dans l’historique Git.
 - Le site charge directement `js/agency.js`; modifier ce fichier sans étape de minification.
-- Les bibliothèques utilisées restent dans `vendor/` et `js/blazy.min.js`.
+- Les bibliothèques tierces sont regroupées dans `libs/`, y compris bLazy.
   Leurs sources et licences sont conservées pour faciliter les mises à jour.
 
 Le site utilise jQuery 4.0.0 et Bootstrap 5.3.8 (avec Popper inclus dans le bundle).
