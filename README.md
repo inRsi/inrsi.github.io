@@ -14,6 +14,7 @@ Aucune installation npm ni compilation Gulp n’est nécessaire.
   Leurs sources et licences sont conservées pour faciliter les mises à jour.
 
 Le site utilise jQuery 4.0.0 et Bootstrap 5.3.8 (avec Popper inclus dans le bundle).
+Les icônes utilisent Font Awesome Free 7.3.1 avec ses polices WOFF2 locales.
 Les menus et fenêtres utilisent les attributs `data-bs-*` de Bootstrap 5.
 jQuery et jQuery Easing restent utilisés pour le défilement animé.
 Après une mise à jour, vérifier le menu mobile, les fenêtres, le retour du focus,

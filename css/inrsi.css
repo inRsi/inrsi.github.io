@@ -10,6 +10,12 @@ body {
   font-family: 'Nunito';
 }
 
+/* Preserve automatic icon widths when using Font Awesome 7. */
+.fas,
+.fab {
+  --fa-width: auto;
+}
+
 /* Preserve the Agency layout and typography when using Bootstrap 5. */
 html {
   scroll-behavior: auto;
