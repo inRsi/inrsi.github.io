@@ -4,49 +4,52 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 (function($) {
-  "use strict"; // Start of use strict
+  'use strict';
+
+  const scrollDuration = 500;
+  const scrollOffset = 54;
+  const scrollEasing = 'easeInOutExpo';
+  const navbarShrinkThreshold = 100;
+  const $window = $(window);
+  const $navbar = $('#mainNav');
+  const $scrollContainer = $('html, body');
+  const $scrollTriggers = $('.js-scroll-trigger');
+  const menu = document.getElementById('navbarResponsive');
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function() {
+  $scrollTriggers.filter('a[href*="#"]:not([href="#"])').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
         location.hostname == this.hostname) {
-      var target = $(this.hash);
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        $('html, body').stop(true).animate({
-          scrollTop: (target.offset().top - 54)
-        }, 500, "easeInOutExpo");
+        $scrollContainer.stop(true).animate({
+          scrollTop: target.offset().top - scrollOffset
+        }, scrollDuration, scrollEasing);
         return false;
       }
     }
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').on('click', function() {
-    var menu = document.getElementById('navbarResponsive');
+  $scrollTriggers.on('click', function() {
     bootstrap.Collapse.getOrCreateInstance(menu, { toggle: false }).hide();
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
-  var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  const scrollSpy = new bootstrap.ScrollSpy(document.body, {
     target: '#mainNav',
     rootMargin: '-56px 0px -40%'
   });
-  $(window).on('load', function() {
+  $window.on('load', function() {
     scrollSpy.refresh();
   });
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).on('scroll', navbarCollapse);
+  // Update the compact navbar on initial load and while scrolling.
+  function updateNavbar() {
+    $navbar.toggleClass('navbar-shrink', $navbar.offset().top > navbarShrinkThreshold);
+  }
+  updateNavbar();
+  $window.on('scroll', updateNavbar);
 
-})(jQuery); // End of use strict
+})(jQuery);
