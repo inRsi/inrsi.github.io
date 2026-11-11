@@ -52,4 +52,18 @@
   updateNavbar();
   $window.on('scroll', updateNavbar);
 
+  // Initialize lazy-loaded images with the existing breakpoint and loading-state delay.
+  new Blazy({
+    breakpoints: [{
+      width: 420,
+      src: 'data-src'
+    }],
+    success: function(element) {
+      setTimeout(function() {
+        const parent = element.parentNode;
+        parent.className = parent.className.replace(/\bloading\b/, '');
+      }, 200);
+    }
+  });
+
 })(jQuery);

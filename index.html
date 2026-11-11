@@ -1309,23 +1309,9 @@
 
   <!-- Plugin JavaScript -->
   <script src="libs/jquery-easing/jquery.easing.min.js"></script>
+  <script src="libs/blazy/blazy.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.js"></script>
-  <script src="libs/blazy/blazy.min.js"></script>
-  <script>
-      var bLazy = new Blazy({
-        breakpoints: [{
-	    width: 420 // Max-width
-          , src: 'data-src'
-	}]
-      , success: function(element){
-	    setTimeout(function(){
-		var parent = element.parentNode;
-		parent.className = parent.className.replace(/\bloading\b/,'');
-	    }, 200);
-        }
-   });
-  </script>
 </body>
 </html>
