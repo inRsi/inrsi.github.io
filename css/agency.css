@@ -4,13 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-
-
-
-
-
-
-
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -35,10 +28,6 @@ img::selection {
   background: transparent;
 }
 
-img::-moz-selection {
-  background: transparent;
-}
-
 .btn {
   font-family: 'Nunito';
   font-weight: 700;
@@ -54,26 +43,23 @@ img::-moz-selection {
   border-color: #BC163C;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   background-color: #033E60 !important;
   border-color: #033E60 !important;
   color: white;
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn-primary:active,
+.btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(188, 22, 60, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(188, 22, 60, 0.5) !important;
 }
 
-
 header.masthead {
   text-align: center;
   color: #033E60;
-  background-image: url("../img/tech.mp4");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
 }
 
 header.masthead .intro-text {
@@ -116,11 +102,6 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Nunito';
   }
-}
-
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
 }
 
 #portfolio .portfolio-item {
@@ -299,7 +280,8 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 50px;
 }
 
-.timeline > li:after, .timeline > li:before {
+.timeline > li:after,
+.timeline > li:before {
   display: table;
   content: ' ';
 }
@@ -495,14 +477,6 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Nunito';
 }
 
-.footer ul.quicklinks {
-  font-size: 90%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-family: 'Nunito';
-}
-
 ul.social-buttons {
   margin-bottom: 0;
 }
@@ -521,6 +495,8 @@ ul.social-buttons li a {
   background-color: #e4e3e6;
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
   color: #BC163C;
 }
