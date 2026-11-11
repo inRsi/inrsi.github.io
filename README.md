@@ -9,8 +9,7 @@ Aucune installation npm ni compilation Gulp n’est nécessaire.
 - Modifier `index.html` et les styles personnalisés dans `css/inrsi.css`.
 - `css/agency.css` est la feuille du thème chargée par les pages et se modifie directement.
   Les anciennes sources SCSS ont été retirées; elles restent accessibles dans l’historique Git.
-- Le site charge `js/agency.min.js`; toute modification de `js/agency.js` doit aussi
-  être reportée dans ce fichier pour être visible.
+- Le site charge directement `js/agency.js`; modifier ce fichier sans étape de minification.
 - Les bibliothèques utilisées restent dans `vendor/` et `js/blazy.min.js`.
   Leurs sources et licences sont conservées pour faciliter les mises à jour.
 
